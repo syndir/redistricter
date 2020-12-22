@@ -1,0 +1,10 @@
+/.DS_Store
+**/.DS_Store
+/.classpath
+/.gradle
+/.vscode
+node_modules
+.project
+.settings/org.springframework.ide.eclipse.prefs
+target/**
+.ssh

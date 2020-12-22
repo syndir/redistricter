@@ -1,0 +1,28 @@
+#mapid { height: 100% }
+#main_container { height: 100% }
+#sidebar { height: 100% }
+
+html, body, #fullheight {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 100% !important;
+    height: 100%;
+}
+.color-box {
+    width: 10px;
+    height: 10px;
+    display: inline-block;
+    background-color: #ccc;
+}
+
+h5, h4 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+button, tabset_tabs {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+textarea, select, input, label, span {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 14px
+}

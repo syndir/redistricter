@@ -1,0 +1,11 @@
+package cse416.ravens.application;
+
+public enum MapFilter {
+//	FILTER_PRECINCT,
+	FILTER_DP_ORIGINAL,
+	FILTER_DP_AVERAGE,
+	FILTER_DP_BEST,
+	FILTER_DP_WORST,
+	FILTER_DP_RANDOM,
+	FILTER_HEATMAP
+}

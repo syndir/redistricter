@@ -1,0 +1,9 @@
+{
+  "job": 1,
+  "state": "PA",
+  "numIterations": 50,
+  "numSeedPlans": 5,
+  "populationVariance": 0.01,
+  "compactnessMeasure": 0.2,
+  "numDistricts": 18
+}
