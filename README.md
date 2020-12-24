@@ -67,7 +67,10 @@ where `1` is the FK into the districting_plans table for the enacted AL CD,`48` 
 
 Once this is done, you can either delete the rows from the DB or change the `state` columns to `NONE` so they do not show in the job history
 
+## Algorithm
+Note that there are two different "versions" of the algorithm included. One version forces a modification of the graph structure at every iteration, the other will "skip" an iteration in the event no suitable edge is found to cut in the MST. During testing, it seemed that forcing all 10k iterations to alter the graph versus allowing iterations to be skipped had a negligible effect once the graph has converged to being within constraints.
 
+Instructions on how to toggle between these two methods are included in the `main.py` file under `algorithm/` (It's simply toggling the call of one method over another, lines 52 and 53).
 
 ## Preprocessing Scripts
 * `identify_neighbors.py` : Identify precinct neighbors within a state
